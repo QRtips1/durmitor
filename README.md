@@ -1,28 +1,5 @@
 # MonTop · Durmitor
 
-Независимый гид по Дурмитору. Живёт на https://durmitornationalpark.me/ (GitHub Pages).
+Независимый гид по Дурмитору: https://durmitornationalpark.me/ (GitHub Pages). Остальные парки и главная MonTop: https://montop.me/.
 
-Статический сайт без сборщика: HTML, CSS, JS. Открывается с любого статического хостинга (GitHub Pages, Cloudflare Pages).
-
-## Структура
-
-- `index.html` — страница Дурмитора (собрана из `index.template.html`, фон с горами вставлен в разметку).
-- `data.js` — маршруты, треки, автомаршруты, фото и авторы (из OpenStreetMap, Wikipedia, nparkovi.me, Wikimedia Commons).
-- `gpx/` — GPX-треки пеших маршрутов.
-- `img/` — фото со свободной лицензией, авторы перечислены в подвале сайта.
-- `assets/montop.css` — стиль: цвета, сезоны, время суток.
-- `assets/i18n.js` — тексты на ME / EN / RU, советы по сезонам, одежда, шины, районы, примеры объявлений.
-- `assets/app.js` — логика: язык, сезон, погода Open-Meteo, частицы (снег, дождь, листья, звёзды), карты Leaflet, карточка маршрута.
-- `assets/vendor/leaflet/` — Leaflet 1.9.4.
-
-## Внешние сервисы (бесплатные, без ключей)
-
-- Погода: api.open-meteo.com.
-- Карта: тайлы OpenTopoMap.
-- Шрифты: Google Fonts.
-- Форма «Разместить объект»: Web3Forms, письма приходят на hello@makesitefor.me (тот же ключ, что у makesitefor.me).
-
-## Как поменять текст
-
-Тексты интерфейса и советы по сезонам лежат в `assets/i18n.js`. После правки достаточно загрузить файл заново.
-Маршруты и фото собираются скриптами в отдельной папке инструментов (не публикуются).
+Собирается из исходников MonTop (`tools/build_park.py`, `tools/make_deploy.py`); руками здесь ничего не править.
