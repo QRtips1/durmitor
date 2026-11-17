@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://durmitornationalpark.me/</loc><lastmod>2026-11-13</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://durmitornationalpark.me/</loc><lastmod>2026-11-17</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://durmitornationalpark.me/"/><xhtml:link rel="alternate" hreflang="sr-ME" href="https://durmitornationalpark.me/me/"/><xhtml:link rel="alternate" hreflang="ru" href="https://durmitornationalpark.me/ru/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://durmitornationalpark.me/"/></url>
+  <url><loc>https://durmitornationalpark.me/me/</loc><lastmod>2026-11-17</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://durmitornationalpark.me/"/><xhtml:link rel="alternate" hreflang="sr-ME" href="https://durmitornationalpark.me/me/"/><xhtml:link rel="alternate" hreflang="ru" href="https://durmitornationalpark.me/ru/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://durmitornationalpark.me/"/></url>
+  <url><loc>https://durmitornationalpark.me/ru/</loc><lastmod>2026-11-17</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://durmitornationalpark.me/"/><xhtml:link rel="alternate" hreflang="sr-ME" href="https://durmitornationalpark.me/me/"/><xhtml:link rel="alternate" hreflang="ru" href="https://durmitornationalpark.me/ru/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://durmitornationalpark.me/"/></url>
 </urlset>
